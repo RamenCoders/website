@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+
+$green: #0da58e;
+$light-green: #8cc152;
+$lime: #cdda49;
+$yellow: #fdc02f;
+$orange: #fd9727;
+$deep-orange: #fc5830;
+$red: #e2202c;
+$pink: #e62565;
+$purple: #9b2fae;
+$deep-purple: #673fb4;
+$blue: #4054b2;
+$light-blue: #587bf8;
+
+
+/*** Shadows ***/
+$shadow-level-0-color: rgba(0, 0, 0, 0.1);
+$shadow-level-0: 1px 1px 0px $shadow-level-0-color;
+$shadow-level-1: 0 3px 6px rgba(0, 0, 0, 0.08), 0 2px 3px rgba(0, 0, 0, 0.22);
+$shadow-level-2: 0 10px 20px rgba(0,0,0,0.09), 0 6px 6px rgba(0,0,0,0.12);
+$shadow-level-3: 0 14px 28px rgba(0,0,0,0.12), 0 10px 10px rgba(0,0,0,0.12);
+$shadow-level-4: 0 19px 38px rgba(0,0,0,0.15), 0 15px 12px rgba(0,0,0,0.12);
+
+
+/*** Follow ***/
+a.follow{
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: #fff !important;
+  z-index: 9999;
+  font-family: 'Helvetica';
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+  opacity: .5;
+  svg{
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  span{
+    display: none;
+  }
+  &:hover{
+    opacity: 1;
+    span{
+      display: inline;
+    }
+  }
+}
+body{
+  font-family: 'Open Sans', arial;
+}

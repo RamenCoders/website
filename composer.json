@@ -1,0 +1,12 @@
+{
+    "name": "justcode/landingpage",
+    "description": "This is a simple and light landing page for any website",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hyperSUDO",
+            "email": "mtechmo@outlook.com"
+        }
+    ],
+    "require": {}
+}
