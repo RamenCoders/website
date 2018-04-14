@@ -53,8 +53,9 @@ html, body {
 	transition: all 0.5s;
 }
 .btn:hover {
+	color: #ccc;
 	border: solid #c0c0 2px;
-}
+	}
 .notification {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 75%;
